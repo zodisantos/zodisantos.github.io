@@ -1,0 +1,132 @@
+
+body {
+  background-color: rgb(3, 3, 80);
+}
+
+header h1 {
+  background-color: rgb(2, 2, 2);
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-bottom: 0;
+  padding: 30px;
+  padding-left: 50px;
+  font-size: 50px;
+  color: orangered;
+}
+
+.menu {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(78, 77, 77);
+  position: fixed;
+  top: 110px;
+  z-index: 9999;
+  width: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.menu li {
+  flex: 1 0 auto;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: rgb(129, 129, 129);
+}
+
+.menu li:first-child {
+  margin-left: 10px;
+}
+
+.menu li:last-child {
+  margin-right: 10px;
+  
+}
+
+img {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 50px;
+  transition: transform 0.3s ease;
+}
+
+.icones:hover {
+  transform: scale(1.2);
+}
+
+#hello {
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-left: 40px;
+}
+
+#hello span {
+  color: orangered;
+}
+
+#hello a {
+  color: white;
+}
+
+#hello a:hover {
+  color: rgb(129, 129, 129); 
+}
+
+#developer {
+  color: white;
+  font-size: 30px;
+}
+
+#icons {
+  color: white;
+  font-size: 30px;
+  display: flex;
+}
+
+#btnCv {
+  background-color: orangered;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+  border-color: transparent;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#btnCv:hover {
+  cursor: pointer;
+  background-color: rgb(170, 48, 3);
+  color: grey;
+}
+
+@media (min-width: 700px) {
+  main {
+    max-width: 1020px;
+    display: flex;
+    align-items: center;
+  }
+
+  #hello {
+    margin-top: 150px;
+  }
+}
